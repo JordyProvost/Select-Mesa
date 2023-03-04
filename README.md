@@ -17,3 +17,26 @@ Arguments:
 	-u, --update                force the change even if you have selected the same version as the current one
 	-v, --version               print version information and exit
   ```
+
+Usage Example :
+
+```
+# /root/scripts/select_mesa.sh
+
+Available MESA Versions :
+
+1	21.1.0
+2	21.2.3
+3	21.3.5
+4	21.3.8
+5	21.3.9
+6	22.1.2
+7	22.1.5
+8	22.2.0
+9	22.3.1
+10	22.3.5 <-- Current Version
+11	master
+
+Enter the number of the MESA version you want to use (1-11) :
+```
+
