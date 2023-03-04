@@ -21,7 +21,7 @@ Arguments:
 Usage Example :
 
 ```
-# /root/scripts/select_mesa.sh
+# ./select_mesa.sh
 
 Available MESA Versions :
 
