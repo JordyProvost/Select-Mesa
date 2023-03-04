@@ -3,7 +3,7 @@ This script permit to change - on the fly - MESA version used by your system.
 You have to compile MESA yourself, usually, your compiled MESA versions are in /usr/local/mesa (but you can change the mesa_dir variable if you are using another directory).
 
 ```
-# /root/scripts/select_mesa.sh -h
+# ./select_mesa.sh -h
 Usage: select_mesa.sh [OPTION]...
 This tool is intended to switch from compiled MESA versions from /usr/local/mesa on a i386/amd64 Debian system.
 Versions of MESA are not build versions, but the name of sudirectories you put under /usr/local/mesa.
