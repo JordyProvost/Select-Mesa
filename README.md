@@ -40,3 +40,8 @@ Available MESA Versions :
 Enter the number of the MESA version you want to use (1-11) :
 ```
 
+```
+# ./select_mesa.sh --mesa 22.3.1
+
+Do you want to activate MESA version 22.3.1 (y/n) :
+```
