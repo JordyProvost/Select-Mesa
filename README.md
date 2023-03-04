@@ -50,7 +50,7 @@ Specifying MESA version directly
 Do you want to activate MESA version 22.3.1 (y/n) :
 ```
 
-The script display all changes made to the system:
+The script display all changes made to the system (i have an AMD graphics card, so the nvidia* errors are expected) :
 
 ```
 # ./select_mesa.sh
