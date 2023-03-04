@@ -50,7 +50,7 @@ Specifying MESA version directly
 Do you want to activate MESA version 22.3.1 (y/n) :
 ```
 
-The script display all changes made to the system (i have an AMD graphics card, so the nvidia* errors are expected) :
+The script display all changes made to the system :
 
 ```
 # ./select_mesa.sh
@@ -74,9 +74,6 @@ Enter the number of the MESA version you want to use (1-11) : 5
 Do you want to activate MESA version 21.3.9 (y/n) : y
 
 Creating links from /usr/local/mesa/21.3.9/share/vulkan/icd.d/ jsons in /usr/share/vulkan/icd.d/.
-ERROR : /usr/local/mesa/21.3.9/share/vulkan/icd.d/nvidia_icd.i686.json not found.
-ERROR : /usr/local/mesa/21.3.9/share/vulkan/icd.d/nvidia_icd.json not found.
-ERROR : /usr/local/mesa/21.3.9/share/vulkan/icd.d/nvidia_icd.x86_64.json not found.
 
 Installing amd64 MESA 21.3.9 in /etc/ld.so.conf.d/x86_64-linux-gnu.conf
 
@@ -108,9 +105,6 @@ intel_icd.i686.json -> /usr/local/mesa/21.3.9/share/vulkan/icd.d/intel_icd.i686.
 intel_icd.x86_64.json -> /usr/local/mesa/21.3.9/share/vulkan/icd.d/intel_icd.x86_64.json
 lvp_icd.i686.json -> /usr/local/mesa/21.3.9/share/vulkan/icd.d/lvp_icd.i686.json
 lvp_icd.x86_64.json -> /usr/local/mesa/21.3.9/share/vulkan/icd.d/lvp_icd.x86_64.json
-nvidia_icd.i686.json -> /usr/local/mesa/21.3.5/share/vulkan/icd.d/nvidia_icd.i686.json
-nvidia_icd.json -> 
-nvidia_icd.x86_64.json -> /usr/local/mesa/21.3.5/share/vulkan/icd.d/nvidia_icd.x86_64.json
 radeon_icd.i686.json -> /usr/local/mesa/21.3.9/share/vulkan/icd.d/radeon_icd.i686.json
 radeon_icd.x86_64.json -> /usr/local/mesa/21.3.9/share/vulkan/icd.d/radeon_icd.x86_64.json
 
